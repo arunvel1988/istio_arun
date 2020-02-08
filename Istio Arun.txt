@@ -1,0 +1,77 @@
+1) minikube setup
+
+2)
+
+minikube start --memory=6024
+
+3)
+
+kubectl get po -n kube-system
+
+4)
+
+cd warmup-exercise
+
+5)
+
+kubectl apply -f 1.yaml
+
+6)
+
+kubectl apply -f 2.yaml
+
+
+7)
+
+kubectl apply -f kiali.yaml
+
+8)
+
+kubectl get pods -n istio-system
+
+9)
+
+kubectl describe ns default
+
+
+10)
+
+kubectl label namespace default istio-injection=enabled
+
+
+11)
+
+kubectl describe ns default
+
+
+12)
+
+kubectl get ns default -o yaml
+
+
+13)
+minikube ip
+
+
+14)
+
+ip:30080
+
+15)
+
+
+ip:31000
+
+(kiali dashboard)
+
+
+16)
+
+username = admin
+password = admin
+
+
+
+17)
+
+
